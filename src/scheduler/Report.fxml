@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane fx:id="mainTab" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduler.ReportController">
+  <tabs>
+    <Tab fx:id="aptTab" text="Appointment By Month">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="aptTV" prefHeight="369.0" prefWidth="600.0">
+                    <columns>
+                      <TableColumn fx:id="monCol" prefWidth="171.0" text="Month" />
+                      <TableColumn fx:id="typeCol" minWidth="6.0" prefWidth="152.0" text="Type" />
+                        <TableColumn fx:id="ntypeCol" minWidth="6.0" prefWidth="162.0" text="Number of Types" />
+                    </columns>
+                  </TableView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab fx:id="schTab" text="Schedule">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="schTV" prefHeight="370.0" prefWidth="600.0">
+                    <columns>
+                      <TableColumn fx:id="idCol" prefWidth="94.0" text="ID" />
+                      <TableColumn fx:id="startCol" prefWidth="173.0" text="Start" />
+                        <TableColumn fx:id="endCol" prefWidth="176.0" text="End" />
+                        <TableColumn fx:id="titleCol" prefWidth="156.0" text="Title" />
+                    </columns>
+                  </TableView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab fx:id="paptTab" text="Popular Appointment Types">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="paptTV" prefHeight="371.0" prefWidth="600.0">
+                    <columns>
+                      <TableColumn fx:id="paptType" prefWidth="149.0" text="Types" />
+                      <TableColumn fx:id="paptnTypes" minWidth="8.0" prefWidth="146.0" text="Number of Types" />
+                    </columns>
+                  </TableView>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

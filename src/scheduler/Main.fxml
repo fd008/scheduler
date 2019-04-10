@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="353.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduler.MainController">
+   <children>
+      <Label layoutX="82.0" layoutY="29.0" prefHeight="23.0" prefWidth="210.0" text="Schedule Management">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button layoutX="81.0" layoutY="104.0" mnemonicParsing="false" onAction="#handleApt" prefHeight="27.0" prefWidth="192.0" text="Appointments" />
+      <Button layoutX="80.0" layoutY="160.0" mnemonicParsing="false" onAction="#handleCus" prefHeight="27.0" prefWidth="194.0" text="Customers" />
+      <Button layoutX="81.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleReport" prefHeight="27.0" prefWidth="192.0" text="Reports" />
+   </children>
+</AnchorPane>

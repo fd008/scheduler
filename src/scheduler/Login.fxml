@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="200.0" minWidth="400.0" prefHeight="367.0" prefWidth="403.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduler.LoginController">
+   <children>
+      <HBox layoutX="18.0" layoutY="58.0" prefHeight="35.0" prefWidth="332.0">
+         <children>
+            <Label fx:id="userLabel" prefHeight="34.0" prefWidth="113.0" text="Username" />
+            <TextField fx:id="username" prefHeight="33.0" prefWidth="217.0" />
+         </children></HBox>
+      <HBox layoutX="18.0" layoutY="114.0" prefHeight="35.0" prefWidth="332.0">
+         <children>
+            <Label fx:id="passLabel" prefHeight="34.0" prefWidth="130.0" text="Password" />
+            <PasswordField fx:id="password" prefHeight="35.0" prefWidth="236.0" />
+         </children></HBox>
+      <Button fx:id="loginButton" defaultButton="true" layoutX="141.0" layoutY="170.0" mnemonicParsing="false" onAction="#handleSignin" prefHeight="27.0" prefWidth="68.0" text="Login" />
+      <Button fx:id="cancelButton" layoutX="282.0" layoutY="170.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="27.0" prefWidth="68.0" text="Cancel" />
+      <Label fx:id="login" layoutX="157.0" layoutY="14.0" prefHeight="35.0" prefWidth="178.0" text="Log In" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="msg" layoutX="116.0" layoutY="219.0" prefHeight="27.0" prefWidth="206.0" textFill="RED" />
+      <Label fx:id="txt" layoutX="117.0" layoutY="255.0" prefHeight="34.0" prefWidth="206.0" />
+   </children>
+</AnchorPane>

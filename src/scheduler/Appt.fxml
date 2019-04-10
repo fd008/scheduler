@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="412.0" prefWidth="819.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduler.ApptController">
+    <children>
+        <TableView fx:id="aptTV" layoutX="-1.0" layoutY="67.0" prefHeight="344.0" prefWidth="819.0">
+            <columns>
+                <TableColumn fx:id="aptID" prefWidth="44.0" text="ID" />
+                <TableColumn fx:id="aptStart" prefWidth="151.0" text="Start" />
+                <TableColumn fx:id="aptEnd" prefWidth="181.0" text="End" />
+                <TableColumn fx:id="aptTitle" prefWidth="130.0" text="Title" />
+                <TableColumn fx:id="aptCon" prefWidth="108.0" text="Consultant" />
+                <TableColumn fx:id="aptCusID" prefWidth="95.0" text="Customer ID" />
+            <TableColumn fx:id="aptCusName" prefWidth="109.0" text="Customer Name" />
+            </columns>
+        </TableView>
+      <Button fx:id="addApptButton" layoutX="459.0" layoutY="28.0" mnemonicParsing="false" onAction="#addAppt" prefHeight="27.0" prefWidth="66.0" text="Add" />
+      <Button fx:id="editApptButton" layoutX="559.0" layoutY="28.0" mnemonicParsing="false" onAction="#editAppt" prefHeight="27.0" prefWidth="59.0" text="Edit" />
+      <Button fx:id="deleteApptButton" layoutX="648.0" layoutY="28.0" mnemonicParsing="false" onAction="#deleteAppt" text="Delete" />
+      <Label layoutX="4.0" layoutY="32.0" prefHeight="19.0" prefWidth="176.0" text="View Appointments By">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="anc" layoutX="209.0" layoutY="28.0" prefHeight="27.0" prefWidth="167.0" />
+    </children>
+</AnchorPane>

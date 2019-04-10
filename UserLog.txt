@@ -1,0 +1,22 @@
+Jan 07, 2019 12:18:52 AM scheduler.LoginController toLog
+INFO: test successfully logged in!
+Jan 07, 2019 12:21:07 AM scheduler.LoginController toLog
+INFO: test unsuccessful attempt to log in!
+ene 09, 2019 7:29:34 A.M. scheduler.LoginController toLog
+INFORMACIÓN: test successfully logged in!
+ene 09, 2019 7:40:12 A.M. scheduler.LoginController toLog
+INFORMACIÓN: test successfully logged in!
+ene 09, 2019 7:42:27 A.M. scheduler.LoginController toLog
+INFORMACIÓN: test unsuccessful attempt to log in!
+Jan 09, 2019 7:50:13 AM scheduler.LoginController toLog
+INFO: test successfully logged in!
+Jan 09, 2019 7:52:43 AM scheduler.LoginController toLog
+INFO: test successfully logged in!
+Jan 09, 2019 8:08:11 AM scheduler.LoginController toLog
+INFO: test successfully logged in!
+Jan 10, 2019 7:39:09 AM scheduler.LoginController toLog
+INFO: test successfully logged in!
+Jan 10, 2019 7:41:01 AM scheduler.LoginController toLog
+INFO: test successfully logged in!
+Jan 10, 2019 3:00:12 PM scheduler.LoginController toLog
+INFO: test successfully logged in!
