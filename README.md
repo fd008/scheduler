@@ -1,13 +1,22 @@
-#Images
+# Images
+
+## Login Screen
+![Login screen](login.png?raw=true "Login Screen")
 
 ## Home Screen
-![home screen](home.png?raw=true "Home Screen")
+![Home screen](home.png?raw=true "Home Screen")
 
-## Home Screen
-![home screen](home.png?raw=true "Home Screen")
+## Appointment Screen
+![Appointment screen](apthome.png?raw=true "Appointment Screen")
 
-## Home Screen
-![home screen](home.png?raw=true "Home Screen")
+## Customer Screen
+![Customer screen](customer.png?raw=true "Customer Screen")
+
+## Customer Info Screen
+![Customer Info screen](customer_info.png?raw=true "Customer Info Screen")
+
+## Report Screen
+![Report screen](report.png?raw=true "Report Screen")
 
 INTRODUCTION
 ________________
